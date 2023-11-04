@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #plasmo-shadow-container {
+    z-index: 1 !important;
+  }
+}
