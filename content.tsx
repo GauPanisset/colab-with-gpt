@@ -99,6 +99,7 @@ const Popup: React.FunctionComponent<PlasmoCSUIProps> = ({ anchor }) => {
             className="flex-auto mr-4 bg-colab-background-dark p-2"
             defaultValue={query}
             name="query"
+            rows={3}
           />
           <button
             disabled={loading}
